@@ -1,6 +1,7 @@
 {
   "scripts": {
     "build": "tsc",
+    "clean": "rm -rf */*.js",
     "test": "jest",
     "start": "yarn build && node"
   },
