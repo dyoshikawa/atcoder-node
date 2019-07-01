@@ -1,9 +1,9 @@
 {
   "scripts": {
     "build": "tsc",
-    "clean": "rm -rf */*.js",
+    "clean": "rm -rf dist",
     "test": "jest",
-    "start": "yarn build && node"
+    "start": "ts-node"
   },
   "devDependencies": {
     "@types/jest": "^24.0.13",
